@@ -12,6 +12,10 @@
 	padding: 0 2rem;
 }
 
+.top-nav img {
+	width: auto;
+}
+
 .top-nav ul {
 	display: flex;
 	justify-content: space-between;
