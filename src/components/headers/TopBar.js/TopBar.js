@@ -1,17 +1,49 @@
 import styles from "./TopBar.module.css";
 
-import React from "react";
+import React, {useState} from "react";
 
 const TopBar = () => {
+	const [selectedDepartment, setSelectedDepartment] = useState("women");
+
+	const chosenDepartmentHandler = (userSelection) => {
+		setSelectedDepartment(userSelection);
+	};
+	// console.log(selectedClothingDepartment);
 	return (
 		<nav>
 			<div className={styles["top-nav"]}>
 				<ul className={styles["left-bar"]}>
-					<li>Women</li>
-					<li>Men</li>
-					<li>Kids</li>
-					<li>Baby</li>
-					<li>Search</li>
+					<li>
+						<button
+							className={`${selectedDepartment === "women" ? styles.active : ""}`}
+							onClick={() => chosenDepartmentHandler("women")}>
+							Women
+						</button>
+					</li>
+					<li>
+						<button
+							className={`${selectedDepartment === "men" ? styles.active : ""}`}
+							onClick={() => chosenDepartmentHandler("men")}>
+							Men
+						</button>
+					</li>
+					<li>
+						<button
+							className={`${selectedDepartment === "kids" ? styles.active : ""}`}
+							onClick={() => chosenDepartmentHandler("kids")}>
+							Kids
+						</button>
+					</li>
+					<li>
+						<button
+							className={`${selectedDepartment === "baby" ? styles.active : ""}`}
+							onClick={() => chosenDepartmentHandler("baby")}>
+							Baby
+						</button>
+					</li>
+					<li>
+						<button>Search</button>
+					</li>
 				</ul>
 
 				<img
