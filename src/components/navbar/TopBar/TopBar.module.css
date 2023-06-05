@@ -26,6 +26,8 @@
 	cursor: pointer;
 	transition: font-size ease 0.4s;
 	background: transparent;
+	color: var(--dark-text);
+	border-radius: 0;
 }
 
 .top-nav ul li button:hover {
