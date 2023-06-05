@@ -1,4 +1,5 @@
 import "./App.css";
+import CallToActionCard from "./components/call-to-action-card/CallToActionCard";
 import HeroSection from "./components/hero/HeroSection";
 
 import Header from "./components/navbar/Header";
@@ -10,6 +11,7 @@ function App() {
 			<Header />
 			<HeroSection />
 			<WeveBeenFeatured />
+			<CallToActionCard />
 			<div className="ben"></div>
 		</div>
 	);

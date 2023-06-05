@@ -1,0 +1,42 @@
+.call-to-action-main-content-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.img-wrapper {
+	/* width: 80%; */
+	flex: 1.5 1 0px;
+}
+
+.call-to-action-text-content-container {
+	padding: 0 0 0 3rem;
+	text-align: left;
+	flex: 1 1 0px;
+}
+
+.call-to-action-text-content-container h3 {
+	padding: 0rem;
+	margin-bottom: 1rem;
+}
+
+.call-to-action-text-content-container p,
+.call-to-action-text-content-container li {
+	padding: 0.1rem;
+	margin: 0.2rem 0;
+	font-size: 0.8rem;
+}
+
+.call-to-action-text-content-container ol > li::marker {
+	font-weight: bold;
+}
+
+.call-to-action-text-content-container ol {
+	margin: 0.6rem 0;
+}
+
+.btn {
+	padding: 0.5rem 1rem;
+	margin-top: 1rem;
+}
