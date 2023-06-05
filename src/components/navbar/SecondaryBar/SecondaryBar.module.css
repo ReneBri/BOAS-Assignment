@@ -1,5 +1,10 @@
 .secondary-bar {
-	margin: 0;
+	width: 100%;
+	/* margin: 0; */
+	position: relative;
+	/* top: 0; */
+	z-index: 1000;
+	background-color: var(--light-text);
 	/* border: 1px solid blue; */
 }
 
@@ -13,7 +18,6 @@
 
 .dropdown-trigger {
 	padding: 1rem;
-	/* position: relative; */
 }
 
 .dropdown-trigger:hover .dropdown {
@@ -42,6 +46,8 @@
 	text-align: left;
 	display: none;
 	border-bottom: 2px solid var(--dark-text);
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+	/* z-index: 1000; */
 }
 
 .single-column-dropdown {
@@ -63,6 +69,9 @@
 	left: 0;
 	right: 0;
 	display: none;
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+	padding-bottom: 0.5rem;
+	/* z-index: 1000; */
 }
 
 .full-width-dropdown-column {

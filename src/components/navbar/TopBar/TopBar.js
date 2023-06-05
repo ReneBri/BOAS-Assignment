@@ -9,7 +9,7 @@ import React from "react";
 
 const TopBar = ({selectedDepartment, setSelectedDepartment}) => {
 	return (
-		<nav>
+		<nav className={styles["main-nav"]}>
 			<div className={styles["top-nav"]}>
 				<ul className={styles["left-bar"]}>
 					<li>
