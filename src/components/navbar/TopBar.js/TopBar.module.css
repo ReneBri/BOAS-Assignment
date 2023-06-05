@@ -10,21 +10,20 @@ nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	border: 1px solid black;
-	padding: 0 1rem;
+	/* border: 1px solid black; */
+	padding: 0 2rem;
 }
 
 .top-nav ul {
-	border: 1px solid grey;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .top-nav ul li button {
 	border: none;
 	margin: 10px;
 	font-size: 1rem;
-	letter-spacing: 0.15rem;
 	padding: 0.4rem;
 	cursor: pointer;
 	transition: font-size ease 0.4s;
@@ -47,8 +46,7 @@ nav {
 }
 
 .right-bar li {
-	padding: 1rem;
-	letter-spacing: 0.05rem;
+	padding: 0.5rem;
 }
 
 .right-bar-elements {

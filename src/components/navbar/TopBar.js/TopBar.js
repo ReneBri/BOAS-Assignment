@@ -3,16 +3,11 @@ import expand from "../../../media/icons/expand.svg";
 import userIcon from "../../../media/icons/userIcon.svg";
 import cart from "../../../media/icons/cart.svg";
 import language from "../../../media/icons/language.svg";
+import search from "../../../media/icons/search.svg";
 
-import React, {useState} from "react";
+import React from "react";
 
-const TopBar = () => {
-	const [selectedDepartment, setSelectedDepartment] = useState("women");
-
-	const chosenDepartmentHandler = (userSelection) => {
-		setSelectedDepartment(userSelection);
-	};
-
+const TopBar = ({selectedDepartment, setSelectedDepartment}) => {
 	return (
 		<nav>
 			<div className={styles["top-nav"]}>
@@ -20,33 +15,35 @@ const TopBar = () => {
 					<li>
 						<button
 							className={`${selectedDepartment === "women" ? styles.active : ""}`}
-							onClick={() => chosenDepartmentHandler("women")}>
+							onClick={() => setSelectedDepartment("women")}>
 							Women
 						</button>
 					</li>
 					<li>
 						<button
 							className={`${selectedDepartment === "men" ? styles.active : ""}`}
-							onClick={() => chosenDepartmentHandler("men")}>
+							onClick={() => setSelectedDepartment("men")}>
 							Men
 						</button>
 					</li>
 					<li>
 						<button
 							className={`${selectedDepartment === "kids" ? styles.active : ""}`}
-							onClick={() => chosenDepartmentHandler("kids")}>
+							onClick={() => setSelectedDepartment("kids")}>
 							Kids
 						</button>
 					</li>
 					<li>
 						<button
 							className={`${selectedDepartment === "baby" ? styles.active : ""}`}
-							onClick={() => chosenDepartmentHandler("baby")}>
+							onClick={() => setSelectedDepartment("baby")}>
 							Baby
 						</button>
 					</li>
 					<li>
-						<button>Search</button>
+						<button>
+							<img src={search} height="24" alt="search function icon" />
+						</button>
 					</li>
 				</ul>
 
@@ -60,25 +57,25 @@ const TopBar = () => {
 					<li>
 						<div className={styles["right-bar-elements"]}>
 							About Us
-							<img src={expand} height="24" />
+							<img src={expand} height="24" alt="expand icon" />
 						</div>
 					</li>
 					<li>
 						<div className={styles["right-bar-elements"]}>
-							<img src={userIcon} height="24" />
+							<img src={userIcon} height="24" alt="User icon for login" />
 							Account
 						</div>
 					</li>
 					<li>
 						<div className={styles["right-bar-elements"]}>
 							<span>0</span>
-							<img src={cart} height="24" />
+							<img src={cart} height="24" alt="Cart icon for checking your cart" />
 							Cart
 						</div>
 					</li>
 					<li>
 						<div className={styles["right-bar-elements"]}>
-							<img src={language} height="24" />
+							<img src={language} height="24" alt="Icon to choose language" />
 							Language
 						</div>
 					</li>

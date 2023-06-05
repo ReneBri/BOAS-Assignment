@@ -12,7 +12,7 @@ body {
 	padding: 0;
 	background-color: var(--bg-pink);
 	font-family: "poppins", sans-serif;
-	letter-spacing: 0.15rem;
+	letter-spacing: 0.02rem;
 }
 
 ul {
@@ -26,4 +26,5 @@ code {
 
 a {
 	color: var(--dark-text);
+	text-decoration: none;
 }
