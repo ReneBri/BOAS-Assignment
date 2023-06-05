@@ -40,3 +40,31 @@ nav {
 	border-bottom: 1px solid black !important;
 	transition: all ease 0.1s;
 }
+
+.right-bar {
+	font-weight: 200;
+	align-items: center;
+}
+
+.right-bar li {
+	padding: 1rem;
+	letter-spacing: 0.05rem;
+}
+
+.right-bar-elements {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.right-bar-elements span {
+	position: absolute;
+	top: -5px;
+	left: 12px;
+	font-size: 9px;
+	font-weight: 400;
+	background-color: var(--accent-green);
+	padding: 0.07rem 0.25rem;
+	border-radius: 100%;
+	color: var(--light-text);
+}

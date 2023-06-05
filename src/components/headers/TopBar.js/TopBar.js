@@ -1,4 +1,8 @@
 import styles from "./TopBar.module.css";
+import expand from "../../../media/icons/expand.svg";
+import userIcon from "../../../media/icons/userIcon.svg";
+import cart from "../../../media/icons/cart.svg";
+import language from "../../../media/icons/language.svg";
 
 import React, {useState} from "react";
 
@@ -8,7 +12,7 @@ const TopBar = () => {
 	const chosenDepartmentHandler = (userSelection) => {
 		setSelectedDepartment(userSelection);
 	};
-	// console.log(selectedClothingDepartment);
+
 	return (
 		<nav>
 			<div className={styles["top-nav"]}>
@@ -47,16 +51,37 @@ const TopBar = () => {
 				</ul>
 
 				<img
-					src="https://cdn.shopify.com/s/files/1/0598/2194/9121/files/BOAS_Logo_Transparent_48x.png?v=1646145898"
+					src="https://cdn.shopify.com/s/files/1/0598/2194/9121/files/BOAS_Logo_Transparent_320x.png?v=1646145898"
 					alt="BOAS logo"
-					height="60"
+					height="81"
 				/>
 
-				<ul>
-					<li>About Us</li>
-					<li>Account</li>
-					<li>Cart</li>
-					<li>Language</li>
+				<ul className={styles["right-bar"]}>
+					<li>
+						<div className={styles["right-bar-elements"]}>
+							About Us
+							<img src={expand} height="24" />
+						</div>
+					</li>
+					<li>
+						<div className={styles["right-bar-elements"]}>
+							<img src={userIcon} height="24" />
+							Account
+						</div>
+					</li>
+					<li>
+						<div className={styles["right-bar-elements"]}>
+							<span>0</span>
+							<img src={cart} height="24" />
+							Cart
+						</div>
+					</li>
+					<li>
+						<div className={styles["right-bar-elements"]}>
+							<img src={language} height="24" />
+							Language
+						</div>
+					</li>
 				</ul>
 			</div>
 		</nav>
