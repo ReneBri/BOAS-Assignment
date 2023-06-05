@@ -22,7 +22,10 @@
 
 .dropdown-trigger a {
 	padding: 0.5rem;
-	font-weight: 500;
+}
+
+.main-sub-type {
+	font-weight: 400;
 }
 
 .main-sub-type:hover {
@@ -43,13 +46,19 @@
 
 .single-column-dropdown {
 	display: block;
+	font-weight: 200;
+}
+
+.single-column-dropdown:hover {
+	transform: rotate(2deg);
+	transition: all 0.1s ease;
 }
 
 .full-width-dropdown {
 	width: 100%;
 	background-color: var(--light-text);
 	position: absolute;
-	border: 1px solid black;
+	border-bottom: 2px solid black;
 	top: 3.5rem;
 	left: 0;
 	right: 0;
@@ -64,6 +73,20 @@
 .full-width-column-dropdown {
 	display: flex;
 	flex-direction: row;
+	font-weight: 200;
+}
+
+.full-width-column-dropdown:hover {
+	transform: rotate(2deg);
+	transition: all 0.1s ease;
+}
+
+.full-width-column-dropdown:nth-child(1) {
+	font-weight: 400;
+}
+
+.single-column-dropdown:nth-child(1) {
+	font-weight: 400;
 }
 
 .dropdown-trigger:hover .full-width-dropdown {
