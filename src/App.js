@@ -2,6 +2,7 @@ import "./App.css";
 import CallToActionCard from "./components/call-to-action-card/CallToActionCard";
 import FeaturedProductsCard from "./components/featured-products-card/FeaturedProductsCard";
 import FeaturedProductsCardContainer from "./components/featured-products-card/FeaturedProductsCardContainer";
+import Footer from "./components/footer/Footer";
 import HeroSection from "./components/hero/HeroSection";
 
 import Header from "./components/navbar/Header";
@@ -38,27 +39,27 @@ function App() {
 			</FeaturedProductsCardContainer>
 			<FeaturedProductsCardContainer title="For the little ones">
 				<FeaturedProductsCard
-					title="SHOP WOMEN"
+					title="BEST SELLERS"
 					overlayColor="green"
-					backgroundImage="https://cdn.shopify.com/s/files/1/0598/2194/9121/files/sunset-swings-smiles_900x.jpg?v=1678787376"
+					backgroundImage="https://cdn.shopify.com/s/files/1/0598/2194/9121/files/kids-power-posing_900x.jpg?v=1674595890"
 				/>
 				<FeaturedProductsCard
-					title="SHOP MEN"
+					title="NURSERY"
 					overlayColor="green"
-					backgroundImage="https://cdn.shopify.com/s/files/1/0598/2194/9121/files/man-in-retail-store-with-big-smile_900x.jpg?v=1678787485"
+					backgroundImage="https://cdn.shopify.com/s/files/1/0598/2194/9121/files/nursery-interior-design_900x.jpg?v=1674596424"
 				/>
 				<FeaturedProductsCard
-					title="SHOP KIDS"
+					title="NEWBORN"
 					overlayColor="green"
-					backgroundImage="https://cdn.shopify.com/s/files/1/0598/2194/9121/files/girl-smiles-in-winter-coat_900x.jpg?v=1674577272"
+					backgroundImage="https://cdn.shopify.com/s/files/1/0598/2194/9121/files/a-baby-lays-sleeping-next-to-a-basket-of-apples_900x.jpg?v=1674596521"
 				/>
 				<FeaturedProductsCard
-					title="SHOP BABY"
+					title="ALL SUSTAINABLE"
 					overlayColor="green"
-					backgroundImage="https://cdn.shopify.com/s/files/1/0598/2194/9121/files/toddler-plays-with-doll_900x.jpg?v=1674577368"
+					backgroundImage="https://cdn.shopify.com/s/files/1/0598/2194/9121/files/small-child-squats-and-plays-with-toy-trucks_900x.jpg?v=1674596965"
 				/>
 			</FeaturedProductsCardContainer>
-			<div className="ben"></div>
+			<Footer />
 		</div>
 	);
 }
