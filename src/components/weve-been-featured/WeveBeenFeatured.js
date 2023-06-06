@@ -37,12 +37,6 @@ const WeveBeenFeatured = () => {
 						</div>
 						<div className={styles["img-wrapper"]}>
 							<img
-								src="https://cdn.shopify.com/s/files/1/0598/2194/9121/files/2022-vriendin-logo_240x.svg?v=1681817574"
-								alt="Vriendin logo"
-							/>
-						</div>
-						<div className={styles["img-wrapper"]}>
-							<img
 								src="https://cdn.shopify.com/s/files/1/0598/2194/9121/files/ea-logo-square_240x.png?v=1675117511"
 								alt="Effective Altruism logo"
 							/>

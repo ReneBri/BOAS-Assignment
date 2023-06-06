@@ -6,7 +6,6 @@
 }
 
 .img-wrapper {
-	/* width: 80%; */
 	flex: 1.5 1 0px;
 }
 
@@ -39,4 +38,20 @@
 .btn {
 	padding: 0.5rem 1rem;
 	margin-top: 1rem;
+}
+
+@media only screen and (max-width: 808px) {
+	.call-to-action-main-content-container {
+		flex-direction: column;
+	}
+
+	.call-to-action-text-content-container {
+		text-align: center;
+		padding-left: 0;
+	}
+	.call-to-action-text-content-container ol {
+		max-width: 18rem;
+		margin: auto;
+		text-align: left;
+	}
 }

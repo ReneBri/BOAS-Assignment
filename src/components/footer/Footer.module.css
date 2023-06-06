@@ -95,6 +95,28 @@ footer input {
 	margin-top: 1rem;
 }
 
+@media only screen and (max-width: 500px) {
+	.footer-top-container {
+		flex-direction: column;
+	}
+
+	.footer-column {
+		text-align: center;
+	}
+
+	.socials-container {
+		justify-content: center;
+	}
+
+	footer input {
+		margin: auto;
+	}
+
+	.btn {
+		margin: 0.5rem auto 0 auto;
+	}
+}
+
 /* Second row  */
 
 .footer-second-container {

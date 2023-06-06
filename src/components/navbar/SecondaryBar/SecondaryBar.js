@@ -3,25 +3,9 @@ import styles from "./SecondaryBar.module.css";
 
 import {departmentData} from "../../../data/devData";
 
-const departmentDataTest = {
-	women: [
-		{mainTitle: "Womens Shoes", subTitles: [["18+", "Classy", "Elegant", "Sandels"]]},
-		{mainTitle: "Shoes", subTitles: null},
-		{
-			mainTitle: "Girls Shoes",
-			subTitles: [
-				["2 - 9 YO", "9 - 16 YO", "Boots", "Sandels"],
-				["18+", "Classy", "Elegant", "Sandels"],
-			],
-		},
-	],
-	men: ["Sustainable T-shirts", "Pre-owned Jeans", "Vintage Levi's Jeans"],
-};
-
 const SecondaryBar = ({selectedDepartment}) => {
 	const displayData = departmentData[selectedDepartment];
 
-	console.log(departmentDataTest.women);
 	return (
 		<nav className={styles["secondary-bar"]}>
 			<ul>
@@ -35,7 +19,7 @@ const SecondaryBar = ({selectedDepartment}) => {
 							<div className={styles.dropdown}>
 								{data.subTitles[0].map((item) => (
 									<a
-										className={styles["single-column-dropdown"]}
+										className={styles["single-column-dropdown-item"]}
 										href="#"
 										key={item}>
 										{item}
@@ -52,7 +36,9 @@ const SecondaryBar = ({selectedDepartment}) => {
 										key={array}>
 										{array.map((item) => (
 											<a
-												className={styles["full-width-column-dropdown"]}
+												className={
+													styles["full-width-dropdown-column-item"]
+												}
 												href="#"
 												key={item}>
 												{item}

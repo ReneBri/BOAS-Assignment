@@ -20,6 +20,7 @@
 	margin: 0 1rem;
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 }
 
 #play-now {
@@ -30,4 +31,10 @@
 #play-now img {
 	margin-right: 0.5rem;
 	width: auto;
+}
+
+@media only screen and (max-width: 770px) {
+	.hero-container {
+		padding: 4rem;
+	}
 }
