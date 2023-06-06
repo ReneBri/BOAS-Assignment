@@ -1,0 +1,33 @@
+.container {
+	border-radius: 1rem;
+	background-color: white;
+	padding: 1.5rem;
+	flex: 1 1 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: var(--light-text);
+}
+
+.default-overlay {
+	box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+}
+
+.green-overlay {
+	box-shadow: inset 0 0 0 1000px rgba(8, 45, 7, 0.69);
+}
+
+.no-tagline {
+	padding: 3.5rem 1.5rem;
+}
+
+.container h3 {
+	margin: 1rem;
+}
+.container p {
+	margin: 0 0 1rem 0;
+}
