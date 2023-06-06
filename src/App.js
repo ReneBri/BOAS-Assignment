@@ -1,13 +1,12 @@
-import {useState} from "react";
 import "./App.css";
-import CallToActionCard from "./components/call-to-action-card/CallToActionCard";
-import FeaturedProductsCard from "./components/featured-products-card/FeaturedProductsCard";
-import FeaturedProductsCardContainer from "./components/featured-products-card/FeaturedProductsCardContainer";
-import Footer from "./components/footer/Footer";
-import HeroSection from "./components/hero/HeroSection";
 
 import Header from "./components/navbar/Header";
+import HeroSection from "./components/hero/HeroSection";
 import WeveBeenFeatured from "./components/weve-been-featured/WeveBeenFeatured";
+import CallToActionCard from "./components/call-to-action-card/CallToActionCard";
+import FeaturedProductsCardContainer from "./components/featured-products-card/FeaturedProductsCardContainer";
+import FeaturedProductsCard from "./components/featured-products-card/FeaturedProductsCard";
+import Footer from "./components/footer/Footer";
 
 function App() {
 	return (

@@ -1,3 +1,4 @@
+/* Global nav styles */
 .main-nav {
 	width: 100%;
 	position: relative;
@@ -11,14 +12,16 @@
 	padding: 0 2rem;
 }
 
-.top-nav-wrapper img {
-	width: auto;
-}
-
+/* Centered BOAS logo */
 .logo {
 	position: absolute;
 	left: 50%;
 	transform: translate(-50%, 0);
+}
+
+/* Left nav list */
+.top-nav-wrapper img {
+	width: auto;
 }
 
 .top-nav-wrapper ul {
@@ -44,11 +47,16 @@
 	transition: font-size ease 0.5s;
 }
 
+.burger-menu {
+	display: none;
+}
+
 .active {
 	border-bottom: 1px solid black !important;
 	transition: all ease 0.1s;
 }
 
+/* Right nav list */
 .right-bar {
 	font-weight: 200;
 	align-items: center;
@@ -75,10 +83,6 @@
 	padding: 0.07rem 0.25rem;
 	border-radius: 100%;
 	color: var(--light-text);
-}
-
-.burger-menu {
-	display: none;
 }
 
 @media only screen and (max-width: 990px) {

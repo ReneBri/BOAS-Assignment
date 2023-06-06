@@ -1,3 +1,4 @@
+/* Secondary bar global styles */
 .secondary-bar {
 	width: 100%;
 	position: relative;
@@ -45,10 +46,6 @@
 	.secondary-bar {
 		display: none;
 	}
-	/* .dropdown-trigger {
-		font-size: 0.75rem;
-		padding: 1rem 0.25rem;
-	} */
 }
 
 @media only screen and (max-width: 500px) {

@@ -4,6 +4,7 @@ import styles from "./SecondaryBar.module.css";
 import {departmentData} from "../../../data/devData";
 
 const SecondaryBar = ({selectedDepartment}) => {
+	// Fetch the correct data from our JS object depending on our passed state
 	const displayData = departmentData[selectedDepartment];
 
 	return (

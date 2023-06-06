@@ -1,6 +1,7 @@
 import styles from "./CallToActionCard.module.css";
 
 import React from "react";
+
 import Card from "../ui/card/Card";
 
 const CallToActionCard = () => {

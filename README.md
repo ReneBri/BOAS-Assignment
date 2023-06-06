@@ -21,7 +21,10 @@ Overall, I had a lot of fun with this project. I've spent about 14 hours working
 I managed to make this quite responsive with only a small amount of media querys.
 
 ** Department Dropdowns **
-This was the first thing I worked on and it definitely took the longest. But it's ultimatly building these sort of things which is what I enjoy the most about web development. The "womens" and "mens" departments dont have sub-sub menus that dropdown but the "kids" and "baby" departments do.
+This was the first thing I worked on and it definitely took the longest. But it's ultimatly building these sort of things that are what I enjoy the most about web development. The "womens" and "mens" departments dont have sub-sub menus that dropdown but the "kids" and "baby" departments do.
+
+** Search Modal **
+I saw that there was a search function on the site. I didn't add a search functionality but I did want to incorporate the a modal into this.
 
 ### Things I would like to improve
 
@@ -41,3 +44,6 @@ The "department" dropdowns function really well until viewing on a phone. The bu
 
 ** Animations **
 I added some of own subtle animations on the dropdowns and navbar. But some such as the infinite message bar I left out. I would have liked to do them though.
+
+** Use of className={styles["this"]} **
+While i've recently learnt and love using [] notation for accessing object enums in JS (see < SecondaryBar /> for an example of this), I've actually decided today that I think it's quite ugly when it comes to declaring styles in React. I think from now on I will use dot notation like this - className={styles.someStyle}

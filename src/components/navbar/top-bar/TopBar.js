@@ -12,6 +12,7 @@ const TopBar = ({selectedDepartment, setSelectedDepartment, setShowSearchModal})
 	return (
 		<nav className={styles["main-nav"]}>
 			<div className={styles["top-nav-wrapper"]}>
+				{/* Left list in nav */}
 				<img className={styles["burger-menu"]} src={menu} alt="expand menu" height="24px" />
 				<ul className={styles["left-bar"]}>
 					<li>
@@ -49,6 +50,7 @@ const TopBar = ({selectedDepartment, setSelectedDepartment, setShowSearchModal})
 					</li>
 				</ul>
 
+				{/* Logo in nav */}
 				<img
 					src="https://cdn.shopify.com/s/files/1/0598/2194/9121/files/BOAS_Logo_Transparent_320x.png?v=1646145898"
 					alt="BOAS logo"
@@ -56,6 +58,7 @@ const TopBar = ({selectedDepartment, setSelectedDepartment, setShowSearchModal})
 					className={styles.logo}
 				/>
 
+				{/* Right list in nav */}
 				<ul className={styles["right-bar"]}>
 					<li className={styles["hide-at-500px"]}>
 						<div className={styles["right-bar-elements"]}>
