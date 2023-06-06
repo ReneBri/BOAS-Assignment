@@ -1,7 +1,9 @@
+/* Global footer styles */
 footer {
 	background-color: #201f1f;
 	color: var(--light-text);
 	font-weight: 200;
+	margin-top: 2rem;
 }
 
 footer h3 {
@@ -38,15 +40,17 @@ footer input {
 	border-radius: 0.5rem;
 }
 
+/* First row */
+
 .footer-top-container {
 	display: flex;
 }
 
-#contact-us {
+.green-link {
 	color: var(--accent-green);
 }
 
-#contact-us:visited {
+.green-link:visited {
 	color: var(--accent-green);
 }
 
@@ -89,4 +93,61 @@ footer input {
 	align-self: flex-start;
 	padding: 0.5rem 2rem;
 	margin-top: 1rem;
+}
+
+/* Second row  */
+
+.footer-second-container {
+	margin: 1rem 0;
+}
+
+.supported-payments-list {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.supported-payments-list img {
+	margin: 0.4rem;
+	height: 2rem;
+}
+
+/* Third Row */
+
+.t-and-c-copyright {
+	margin: 1.5rem;
+}
+
+.t-and-c-copyright ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.t-and-c-copyright ul li {
+	margin: 0 0.25rem;
+}
+
+.t-and-c-copyright p {
+	margin-top: -0.5rem;
+}
+
+/* Last row */
+
+.logo-row {
+	margin: 1rem auto 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo-row img {
+	height: 3rem;
+	margin: 0 1rem;
+}
+
+#bigger-logo {
+	height: 7rem;
 }
