@@ -8,7 +8,7 @@ import menu from "../../../media/icons/menu.svg";
 
 import React from "react";
 
-const TopBar = ({selectedDepartment, setSelectedDepartment}) => {
+const TopBar = ({selectedDepartment, setSelectedDepartment, setShowSearchModal}) => {
 	return (
 		<nav className={styles["main-nav"]}>
 			<div className={styles["top-nav-wrapper"]}>
@@ -43,7 +43,7 @@ const TopBar = ({selectedDepartment, setSelectedDepartment}) => {
 						</button>
 					</li>
 					<li>
-						<button>
+						<button onClick={() => setShowSearchModal(true)}>
 							<img src={search} height="24" alt="search function icon" />
 						</button>
 					</li>

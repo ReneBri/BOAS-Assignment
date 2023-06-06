@@ -1,3 +1,4 @@
+import {useState} from "react";
 import "./App.css";
 import CallToActionCard from "./components/call-to-action-card/CallToActionCard";
 import FeaturedProductsCard from "./components/featured-products-card/FeaturedProductsCard";
