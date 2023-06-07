@@ -17,20 +17,6 @@ const TopBar = ({selectedDepartment, setSelectedDepartment, setShowSearchModal})
 				<ul className={styles["left-bar"]}>
 					<li>
 						<button
-							className={`${selectedDepartment === "women" ? styles.active : ""}`}
-							onClick={() => setSelectedDepartment("women")}>
-							Women
-						</button>
-					</li>
-					<li>
-						<button
-							className={`${selectedDepartment === "men" ? styles.active : ""}`}
-							onClick={() => setSelectedDepartment("men")}>
-							Men
-						</button>
-					</li>
-					<li>
-						<button
 							className={`${selectedDepartment === "kids" ? styles.active : ""}`}
 							onClick={() => setSelectedDepartment("kids")}>
 							Kids
@@ -41,6 +27,20 @@ const TopBar = ({selectedDepartment, setSelectedDepartment, setShowSearchModal})
 							className={`${selectedDepartment === "baby" ? styles.active : ""}`}
 							onClick={() => setSelectedDepartment("baby")}>
 							Baby
+						</button>
+					</li>
+					<li>
+						<button
+							className={`${selectedDepartment === "women" ? styles.active : ""}`}
+							onClick={() => setSelectedDepartment("women")}>
+							Women
+						</button>
+					</li>
+					<li>
+						<button
+							className={`${selectedDepartment === "men" ? styles.active : ""}`}
+							onClick={() => setSelectedDepartment("men")}>
+							Men
 						</button>
 					</li>
 					<li>

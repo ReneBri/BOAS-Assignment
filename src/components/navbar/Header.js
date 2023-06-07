@@ -10,7 +10,7 @@ import SearchModal from "../ui/modal/SearchModal";
 
 const Header = () => {
 	// State to conditionally render each sub department in SecondBar
-	const [selectedDepartment, setSelectedDepartment] = useState("women");
+	const [selectedDepartment, setSelectedDepartment] = useState("kids");
 	// State to conditionally render the SearchModal
 	const [showSearchModal, setShowSearchModal] = useState(false);
 
