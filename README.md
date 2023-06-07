@@ -2,7 +2,7 @@
 
 Here is my repo for the coding assignment sent to me by BOAS.
 
-Link to live version [here] (https://boas-homepage.firebaseapp.com “BOAS”).
+Link to live version [here] (https://boas-homepage.firebaseapp.com)
 
 The assignment is to:
 
