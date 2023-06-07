@@ -2,6 +2,8 @@
 
 Here is my repo for the coding assignment sent to me by BOAS.
 
+Link to live version [here]. (https://boas-homepage.firebaseapp.com “BOAS”)
+
 The assignment is to:
 
 -   Implement the homepage design: Develop the user interface for the homepage, including the header, navigation, featured products section, and footer for https://boas.co/
@@ -13,7 +15,7 @@ I am to deliver:
 
 ## Project Summary
 
-Overall, I had a lot of fun with this project. I've spent about 14 hours working on this. The most challenging part was getting the different sized drop-downs on the sub-menus. The hard part about that was finding the right data structure that let me dynamically render each drop-down depending on how many sub menus it had.
+Overall, I had a lot of fun with this project. I've spent about 16 hours working on this. The most challenging part was getting the different sized drop-downs on the sub-menus. The hard part about that was finding the right data structure that let me dynamically render each dropdown depending on how many sub menus it had.
 
 ### Some strong points
 
@@ -23,7 +25,7 @@ I managed to make this quite responsive with only a small amount of media querys
 
 **Department Dropdowns**
 
-This was the first thing I worked on and it definitely took the longest. But it's ultimatly building these sort of things that are what I enjoy the most about web development. The "womens" and "mens" departments dont have sub-sub menus that dropdown but the "kids" and "baby" departments do.
+This was the first thing I worked on and it definitely took the longest. But it's ultimatly solving problems like these which is what I enjoy the most about web development. The "womens" and "mens" departments dont have sub-sub menus that dropdown but the "kids" and "baby" departments do.
 
 **Search Modal**
 
@@ -56,3 +58,5 @@ I added some of own subtle animations on the dropdowns and navbar. But some such
 **Use of className={styles["this"]}**
 
 While i've recently learnt and love using [] notation for accessing object enums in JS (see < SecondaryBar /> for an example of this), I've actually decided today that I think it's quite ugly when it comes to declaring styles in React. I think from now on I will use dot notation like this - className={styles.someStyle}
+
+**Thanks for reading and I hope you enjoyed the website**
